@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ml-sample"
+version = "0.1.0"
+description = ""
+authors = ["lyingtakemura <106205052+lyingtakemura@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ml_sample"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipykernel = "^6.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
