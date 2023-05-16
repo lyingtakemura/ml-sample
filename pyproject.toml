@@ -9,6 +9,7 @@ packages = [{include = "ml_sample"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 ipykernel = "^6.23.1"
+pandas = "^2.0.1"
 
 
 [build-system]
