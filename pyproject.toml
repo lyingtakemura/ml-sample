@@ -10,6 +10,7 @@ packages = []
 python = "^3.9"
 ipykernel = "^6.23.1"
 pandas = "^2.0.1"
+scikit-learn = "^1.2.2"
 
 
 [build-system]
